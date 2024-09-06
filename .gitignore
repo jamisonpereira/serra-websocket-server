@@ -132,3 +132,8 @@ dist
 # websocket-server
 server.cert
 server.key
+server.*
+
+# jwt
+private.key
+public.key
