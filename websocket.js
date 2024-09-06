@@ -1,6 +1,6 @@
 // File: websocket.js
 const WebSocket = require('ws');
-const { verifyToken } = require('./auth'); // Import the JWT verification function
+const { verifyToken } = require('./routes/auth'); // Import the JWT verification function
 
 // Function to set up WebSocket server
 const setupWebSocket = (server) => {
