@@ -2,7 +2,7 @@
 const https = require('https');
 const fs = require('fs');
 const app = require('./app'); // Import the Express app
-const { setupWebSocket } = require('./websocket'); // Import the WebSocket setup function
+const { setupWebSocket } = require('./services/websocket/websocket'); // Import the WebSocket setup function
 
 // Load SSL certificate and private key for HTTPS
 const server = https.createServer(
